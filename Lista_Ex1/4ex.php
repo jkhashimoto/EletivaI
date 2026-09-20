@@ -11,9 +11,9 @@
     <h1>Exercicio de Exemplo</h1>
     <form action="4res.php" method="post">
         <label for="nota1">Informe a primeira nota: </label>
-        <input type="number" id="nota1" name="nota1">
+        <input type="number" id="nota1" name="nota1" step="any">
         <label for="nota2">Informe a segunda nota: </label>
-        <input type="number" id="nota2" name="nota2">
+        <input type="number" id="nota2" name="nota2" step="any">
         <label for="nota3">Informe a terceira nota: </label>
         <input type="number" id="nota3" name="nota3">
         <button type="submit">Enviar</button>
